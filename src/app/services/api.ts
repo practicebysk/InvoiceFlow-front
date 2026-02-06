@@ -6,7 +6,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class Api {
-  private baseUrl = 'http://localhost:4000/api';
+  private baseUrl = 'https://invoiceflow-server.onrender.com/api';
 
   constructor(private http: HttpClient) { }
 
